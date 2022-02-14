@@ -1,0 +1,47 @@
+@import url(./about-me.css);
+@import url(./projects.css);
+
+/*body{
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}*/
+
+span{
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.container{
+   margin: 20px;
+
+}
+
+:root{
+    
+    --fontBase: 'Poppins', sans-serif;
+    --dark-blue: #310a90;
+    --mycolor: red;
+    
+    }
+    
+    body{
+        font-family: var(--fontBase);
+        color: var(--dark-blue);
+        background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    }
+
+    .container2{
+        margin: 20px;
+        margin-top: 180px;
+     
+     }
+
+    #nav{ 
+     height: 26px;
+     width: 444px;
+     left: 119px;
+     top: 0px;
+     border-radius: nullpx;
+    }
+     
